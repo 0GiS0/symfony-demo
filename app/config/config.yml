@@ -36,7 +36,7 @@ framework:
 #Profiler
 web_profiler:
     toolbar: true
-    intercept_redirects: true
+    intercept_redirects: false
 # Twig Configuration
 twig:
     debug: '%kernel.debug%'
