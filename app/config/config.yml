@@ -33,10 +33,6 @@ framework:
         log: true
     serializer:
         enabled: true
-#Profiler
-web_profiler:
-    toolbar: true
-    intercept_redirects: false
 # Twig Configuration
 twig:
     debug: '%kernel.debug%'
