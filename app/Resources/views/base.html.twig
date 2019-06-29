@@ -64,7 +64,7 @@
                         e.autoExceptionInstrumented = !0
                     }
                     return t
-                }({instrumentationKey: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx"});
+                }({instrumentationKey: "{{MICROSOFT_APP_INSIGHTS_INTRUMENTATION_KEY}}"});
 
             window[aiName] = aisdk,
             aisdk.queue && 0 === aisdk.queue.length && aisdk.trackPageView({});
