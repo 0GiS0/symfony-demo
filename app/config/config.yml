@@ -7,7 +7,7 @@ imports:
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: en
-    env(MICROSOFT_APP_INSIGHTS_INTRUMENTATION_KEY): 828d1a15-a63b-4022-95cf-fdb0f966506b
+    # env(MICROSOFT_APP_INSIGHTS_INTRUMENTATION_KEY): 828d1a15-a63b-4022-95cf-fdb0f966506b
 
 framework:
     #esi: ~
